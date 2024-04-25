@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recetas saludables</title>
+    <link rel="stylesheet" type="text/css" href="recetas.css">
+    <style>
+      /* Estilos adicionales para las animaciones */
+      .fade-in {
+          opacity: 0;
+          animation: fadeInAnimation 1s ease-in-out forwards;
+      }
+
+      @keyframes fadeInAnimation {
+          from {
+              opacity: 0;
+          }
+          to {
+              opacity: 1;
+          }
+      }
+    </style>
+</head>
+<body>
+  <header>
+    <a href="saber.html" class="learn-more-btn">Saber más</a>
+    <a href="index.html" class="home-link"><img src="jpgs/casa.png" alt="Home"></a>
+  </header>
+    <h1>Recetas saludables</h1>
+
+    <div class="receta">
+        <h2>Ensalada de espinacas y quinoa (perder peso)</h2>
+        <img src="jpgs/espinaca.jpg" alt="Ensalada de espinacas y quinoa" width="300" height="200">
+        <div class="ingredientes">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>200g de espinacas frescas</li>
+                <li>1 taza de quinoa cocida</li>
+                <li>1 aguacate maduro</li>
+                <li>1 tomate grande</li>
+                <li>1 pepino</li>
+                <li>50g de nueces picadas</li>
+                <li>Aceite de oliva virgen extra</li>
+                <li>Jugo de limón</li>
+                <li>Sal y pimienta al gusto</li>
+            </ul>
+        </div>
+        <div class="pasos">
+            <h3>Pasos:</h3>
+            <ol>
+                <li>Lava bien las espinacas y escúrrelas.</li>
+                <li>Corta el aguacate, el tomate y el pepino en cubos.</li>
+                <li>En un tazón grande, mezcla las espinacas, la quinoa, el aguacate, el tomate, el pepino y las nueces.</li>
+                <li>Añade aceite de oliva, jugo de limón, sal y pimienta al gusto y mezcla bien.</li>
+                <li>Sirve la ensalada en platos individuales y disfruta.</li>
+            </ol>
+        </div>
+        <div class="nutricion">
+            <h3>Valor nutricional por porción:</h3>
+            <ul>
+                <li>Calorías: Aproximadamente 250 kcal</li>
+                <li>Proteínas: 8g</li>
+                <li>Carbohidratos: 25g</li>
+                <li>Grasas: 15g</li>
+                <li>Fibra: 7g</li>
+                <li>Vitaminas y minerales: Rico en vitamina A, vitamina C, hierro, calcio y magnesio.</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="receta">
+        <h2>Batido de plátano y avena (aumentar peso)</h2>
+        <img src="jpgs/batido.jpeg" alt="Batido de plátano y avena" width="300" height="200">
+        <div class="ingredientes">
+            <h3>Ingredientes:</h3>
+            <ul>
+                <li>2 plátanos maduros</li>
+                <li>1 taza de leche entera</li>
+                <li>1/2 taza de avena</li>
+                <li>2 cucharadas de miel</li>
+                <li>1 cucharadita de canela</li>
+                <li>Cubitos de hielo (opcional)</li>
+            </ul>
+        </div>
+        <div class="pasos">
+            <h3>Pasos:</h3>
+            <ol>
+                <li>Pela los plátanos y córtalos en trozos.</li>
+                <li>Coloca los plátanos, la leche, la avena, la miel y la canela en una licuadora.</li>
+                <li>Mezcla todos los ingredientes hasta obtener una consistencia suave y homogénea.</li>
+                <li>Sirve el batido en un vaso grande y añade cubitos de hielo si lo deseas.</li>
+                <li>Disfruta de tu batido de plátano y avena para aumentar de peso.</li>
+            </ol>
+        </div>
+        <div class="nutricion">
+            <h3>Valor nutricional por porción:</h3>
+            <ul>
+                <li>Calorías: Aproximadamente 350 kcal</li>
+                <li>Proteínas: 6g</li>
+                <li>Carbohidratos: 70g</li>
+                <li>Grasas: 5g</li>
+                <li>Fibra: 5g</li>
+                <li>Vitaminas y minerales: Rico en potasio, magnesio, vitamina B6 y vitamina C.</li>
+            </ul>
+        </div>
+    </div>
+    <button onclick="location.href='recetas2.html';">Ir a página 2</button>
+</body>
+<script src="recetas.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+</html>
